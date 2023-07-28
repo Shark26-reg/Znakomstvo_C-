@@ -19,9 +19,9 @@ void FillArray(int[,] array)
         System.Console.WriteLine();
     }
 }
-Console.Write("Введите индекс столбца: ");
+Console.Write("Введите кол-во строк: ");
 int indexrows = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите введите индекс строки: ");
+Console.Write("Введите кол-во столбцов: ");
 int indexcoloums = Convert.ToInt32(Console.ReadLine());
 int[,] Array= new int[indexrows, indexcoloums];
 FillArray(Array);
